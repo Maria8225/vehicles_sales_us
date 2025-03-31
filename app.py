@@ -57,7 +57,7 @@ if disp_button:
      #           cells=dict(values=[car_data.type, car_data.condition, car_data.transmission, car_data.odometer, car_data.price],
       #          fill_color='lavender',
        #         align='left'))
-                ])
+#                ])
 
     # mostrar un gráfico Plotly interactivo
     #st.plotly_chart(fig3, use_container_width=True)
