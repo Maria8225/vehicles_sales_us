@@ -1,6 +1,6 @@
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 import streamlit as st
 
 
@@ -45,19 +45,19 @@ if disp_button:
     st.plotly_chart(fig2, use_container_width=True)
 
 #Botón para mostrar información básica de vehículos en venta
-disp_button = st.button('Construir tabla con datos exploratorios de los vehículos')
+#disp_button = st.button('Construir tabla con datos exploratorios de los vehículos')
 
-if disp_button:
-    st.write('Creación de tabla con información general de los vehículos en venta')
+#if disp_button:
+ #   st.write('Creación de tabla con información general de los vehículos en venta')
 
     # Crear tabla con información básica
-    fig3 = go.Figure(data=[go.Table(header=dict(values=["type","condition","transmission","odometer","price"],
-                fill_color='paleturquoise',
-                align='left'),
-                cells=dict(values=[car_data.type, car_data.condition, car_data.transmission, car_data.odometer, car_data.price],
-                fill_color='lavender',
-                align='left'))
+  #  fig3 = go.Figure(data=[go.Table(header=dict(values=["type","condition","transmission","odometer","price"],
+   #             fill_color='paleturquoise',
+    #            align='left'),
+     #           cells=dict(values=[car_data.type, car_data.condition, car_data.transmission, car_data.odometer, car_data.price],
+      #          fill_color='lavender',
+       #         align='left'))
                 ])
 
     # mostrar un gráfico Plotly interactivo
-    st.plotly_chart(fig3, use_container_width=True)
+    #st.plotly_chart(fig3, use_container_width=True)
