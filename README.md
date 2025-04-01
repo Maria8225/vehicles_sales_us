@@ -13,4 +13,4 @@ Se ha creado una serie de botones que son una ventana a lo que contiene el datas
 En todos los casos se trata de gráficos interactivos, por lo que el usuario tendrá la facultad de manipular la presentación de los gráficos, según su interés.
 
 https://github.com/Maria8225/vehicles_sales_us
-Ruta URL Render:  http://localhost:8501
+Ruta URL Render:  https://vehicles-sales-us.onrender.com
